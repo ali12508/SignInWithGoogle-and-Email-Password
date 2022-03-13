@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "31113216791",
+    "firebase_url": "https://food-ordering-app-48fb9.firebaseio.com",
+    "project_id": "food-ordering-app-48fb9",
+    "storage_bucket": "food-ordering-app-48fb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31113216791:android:310717fc3cc20d7b35ad52",
+        "android_client_info": {
+          "package_name": "com.ui.signinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31113216791-3bc74fd56b9bjv2e0glkqcdoehkpo23q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ui.signinfirebase",
+            "certificate_hash": "24d2a4c96fdc36e218fabefba2081a864abcc726"
+          }
+        },
+        {
+          "client_id": "31113216791-6n4ij97qs0u9s19dl0702rp49tkpv85g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtiv9oNEdqYy4AvczcBu7cJEalphyuGsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31113216791-6n4ij97qs0u9s19dl0702rp49tkpv85g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "31113216791-9rpviho475fd01f77etml8afkgbrdssc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.taxi.booking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

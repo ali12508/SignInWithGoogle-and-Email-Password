@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SignInFirebase</string>
+
+    <string name="default_web_client_iid">31113216791-6n4ij97qs0u9s19dl0702rp49tkpv85g.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/video" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Rname"
+            android:layout_width="299dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+
+            android:drawableLeft="@drawable/user"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:hint=" Enter user Name"
+            android:padding="4dp" />
+
+        <EditText
+            android:id="@+id/REmail"
+            android:layout_width="299dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/gmail"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:hint=" Enter Email"
+            android:textColorHint="@color/black"
+            android:inputType="textEmailAddress"
+            android:padding="4dp" />
+
+        <EditText
+            android:id="@+id/RPassword"
+            android:layout_width="299dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/pass"
+            android:gravity="center"
+            android:hint=" Enter p/w"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/btnreg"
+            android:layout_width="140dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:drawableStart="@drawable/user"
+            android:paddingLeft="7dp"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:text="Register" />
+        <TextView
+            android:id="@+id/btnlog"
+            android:layout_width="140dp"
+            android:layout_height="47dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+           android:textColor="@color/white"
+            android:paddingLeft="7dp"
+
+            android:gravity="center"
+            android:text="Login" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
